@@ -33,11 +33,18 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    filter: grayscale(0%), sepia(0%);
+    border-radius: 0;
+    transition: all 1s;
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    border-radius: 0;
+    /* filter: grayscale(0%); */
+    filter: sepia(0%);
+    transition: all 1s;
 }
 .ex-10-icon {
     font-size: 60px;
@@ -122,4 +129,23 @@
 
 .ex-6-img:hover{
     filter: grayscale(100%);
+}
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+
+.ex-8-img:hover{
+    filter:sepia(75%);
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.ex-9-img:hover {
+    margin: 2px;
+    width: 570px;
+    border-radius: 20px;
+    filter: sepia(100%);
+    /* filter: grayscale(100%); */
+    transition: all 1s;
 }
